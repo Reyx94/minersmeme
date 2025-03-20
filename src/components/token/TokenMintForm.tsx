@@ -6,7 +6,7 @@ import styles from './TokenMintForm.module.css';
 import { createTokenMint, mintTokens } from '../../lib/solana/token';
 
 // NFT.Storage client - you would need to replace with your API key
-const NFT_STORAGE_API_KEY = 'YOUR_NFT_STORAGE_API_KEY';
+const NFT_STORAGE_API_KEY = 'e0c687c2.dcd9a0fd629749e6a34002e378a70172';
 const client = new NFTStorage({ token: NFT_STORAGE_API_KEY });
 
 export default function TokenMintForm() {
