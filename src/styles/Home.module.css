@@ -1,0 +1,129 @@
+.container {
+  min-height: 100vh;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: white;
+}
+
+.main {
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+  text-align: center;
+  background: linear-gradient(90deg, #ff6b6b, #a16bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #e0e0e0;
+  margin-bottom: 2rem;
+}
+
+.heroSection {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+.featureList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: rgba(30, 20, 60, 0.5);
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.checkmark {
+  color: #4ade80;
+  font-weight: bold;
+}
+
+.comingSoon {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: rgba(30, 20, 60, 0.5);
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.tabContainer {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 600px;
+  justify-content: center;
+}
+
+.tabButton {
+  background-color: rgba(30, 20, 60, 0.5);
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 150px;
+}
+
+.tabButton:hover {
+  background-color: rgba(50, 30, 90, 0.5);
+}
+
+.activeTab {
+  background: linear-gradient(90deg, #7928ca, #ff0080);
+  box-shadow: 0 4px 10px rgba(255, 0, 128, 0.3);
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+  }
+  
+  .tabContainer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
