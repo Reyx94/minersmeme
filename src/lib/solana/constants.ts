@@ -13,3 +13,8 @@ export const LAMPORTS_PER_SOL = 1000000000;
 // Convert fees to lamports
 export const MINT_FEE_LAMPORTS = MINT_FEE * LAMPORTS_PER_SOL;
 export const AUTHORITY_REMOVAL_FEE_LAMPORTS = AUTHORITY_REMOVAL_FEE * LAMPORTS_PER_SOL;
+
+// Solana network configuration
+export const SOLANA_NETWORK = 'mainnet-beta'; // or 'mainnet-beta'
+//export const SOLANA_RPC_ENDPOINT = 'https://api.devnet.solana.com'; // Use this for devnet
+ export const SOLANA_RPC_ENDPOINT = 'https://api.mainnet-beta.solana.com'; // Use this for mainnet
